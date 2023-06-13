@@ -47,30 +47,15 @@ const Formulario = () => {
                     ))}
                 </select>
             </div>
+                        
 
-            <div className="my-5">
-                <label className="block mb-3 font-bold text-gray-400 uppercase">
-                    Año
-                </label>
-                <select
-                    name="year"
-                    className="w-full p-3 bg-white border border-gray-200"
-                    onChange={ e => handleChangeDatos(e)}
-                    value={datos.year}
-                >
-                    <option value="">-- Selecciona Año --</option>
 
-                    {YEARS.map(year => (
-                        <option
-                            key={year}
-                            value={year}
-                        >
-                            {year}
-                        </option>
-                    ))}
-                </select>
-            </div>
 
+
+
+
+           
+              
             <div className="my-5">
                 <label className="block mb-3 font-bold text-gray-400 uppercase">
                     Elige un Servicio
