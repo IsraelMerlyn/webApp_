@@ -41,7 +41,7 @@ const Resultado = () => {
 
             <Fragment>
             <p className="my-2">
-                <span className="font-bold">Año del iphone: </span>
+                <span className="font-bold"> </span>
                 { //yearRef.current 
                 }
             </p>
