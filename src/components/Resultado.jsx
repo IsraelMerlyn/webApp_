@@ -48,7 +48,7 @@ const Resultado = () => {
             </Fragment>
 
             <p className="my-2 text-2xl">
-                <span className="font-bold">Total Cotización: </span>
+                <span className="font-bold">Total Cotización tono: </span>
                 {resultado}
             </p>
         </div>
